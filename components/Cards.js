@@ -5,10 +5,12 @@ export const cards = [
   },
   {
     title: "Glassmorphism",
-    text: "Trying to recreate a stained glass effect a.k.a. Glassmorphism",
+    text:
+      "Recreating a stained glass effect a.k.a. Glassmorphism on HTML element using CSS only",
   },
   {
-    title: "Tilt",
-    text: "Creating the on hover tilting effect using React Tilt Package",
+    title: "Tilting",
+    text:
+      "Creating the on hover tilting effect on HTML element using React Tilt Package",
   },
 ];
