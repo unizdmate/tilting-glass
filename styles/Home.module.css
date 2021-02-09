@@ -10,9 +10,5 @@
 
 .container h2 {
   color: whitesmoke;
-}
-
-@media only screen and (max-width: 900px) {
-  .container {
-  }
+  pointer-events: none;
 }
