@@ -2,55 +2,12 @@
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   position: relative;
 }
 
-.card__container {
-  height: 400px;
-  width: 250px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-  border-radius: 15px;
-  background: rgba(255, 255, 255, 0.1);
-  border-top: 1px solid rgba(255, 255, 255, 0.4);
-  border-left: 1px solid rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(2.5px);
-  overflow: hidden;
-  z-index: 1;
-}
-
-.card__content {
-  padding: 10px;
-  text-align: center;
-  transition: 0.5s;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  height: 100%;
-}
-
-.card__container .card__content h3 {
+.container h2 {
   color: whitesmoke;
-  font-size: 2em;
-  pointer-events: none;
-}
-
-.card__container .card__content p {
-  color: whitesmoke;
-  z-index: 1;
-  pointer-events: none;
-}
-
-@media only screen and (max-width: 900px) {
-  .container {
-    flex-direction: column;
-  }
-  .card__container {
-    margin: 25px;
-  }
 }
