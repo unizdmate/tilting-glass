@@ -39,5 +39,6 @@
 @media only screen and (max-width: 900px) {
   .card__container {
     margin: 25px;
+    flex-direction: column;
   }
 }
