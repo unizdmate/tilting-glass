@@ -1,7 +1,7 @@
 export const cards = [
   {
     title: "Hello",
-    text: "Just experimenting a little with CSS and React Tilt package",
+    text: "Just experimenting a little with CSS and React Tilt library",
   },
   {
     title: "Glassmorphism",
@@ -11,6 +11,6 @@ export const cards = [
   {
     title: "Tilting",
     text:
-      "Creating the on hover tilting effect on HTML element using React Tilt Package",
+      "Creating the 'on hover' tilting effect on HTML element using React Tilt Package",
   },
 ];

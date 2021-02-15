@@ -1,3 +1,7 @@
+## Visit Live
+
+[http://localhost:3000](http://localhost:3000)
+
 ## Getting Started
 
 First, run the development server:
@@ -8,4 +12,4 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [https://tilting-glass.vercel.app/](https://tilting-glass.vercel.app/) with your browser to see the result.
